@@ -16,7 +16,7 @@ function Home() {
             <div className='text-2xl font-semibold text-black mt-4'>
                 Recommended Movies
             </div>
-                <div className="mt-8 flex justify-center items-center gap-10">
+                <div className="mt-8 flex flex-col lg:flex-row justify-center items-center gap-10">
                     <HomeMovieCard movieImage={MoviePoster} />
                     <HomeMovieCard movieImage={MoviePoster} />
                     <HomeMovieCard movieImage={MoviePoster} />
